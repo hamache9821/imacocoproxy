@@ -1,0 +1,34 @@
+{
+  "name": "imacoco-wrapper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "imacoco api wrapper server",
+  "homepage": "http://imacoco.589406.com",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=default node app.js",
+    "test" : "NODE_ENV=development node-dev app.js"
+  },
+  "author": {
+    "name": "Hamache9821",
+    "url": "http://github.com/hamache9821"
+  },
+  "repository" :{
+     "type" : "git"
+    ,"url" : "https://github.com/hamache9821/imacocoproxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hamache9821/imacocoproxy/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "express-session": "*",
+    "date-utils": "*",
+    "moment-timezone": "*",
+    "config": "*"
+  },
+  "engines": {
+    "node": ">=5.6.0"
+  }
+}
